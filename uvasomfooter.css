@@ -1,0 +1,141 @@
+#uvasomfooterleft {
+	float:left;
+	clear:none;
+	max-width:50%;
+}
+#uvasomfooterright {
+	float:right;
+	clear:none;
+	max-width:50%;
+	text-align:right;
+	margin-top:20px;
+}
+div.gototop {
+	float:left;
+	clear:left;
+}
+/*UVA CLINICAL DEPARTMENT VARIATIONS*/
+body.uvasomclinical .site-footer,
+body.uvasom_parallax .site-footer {
+
+	margin:0;
+	padding:0 40px 40px 40px;
+	background:#0b1922;
+	font-size:0.8rem;
+}
+body.uvasomclinical .site-footer, 
+body.uvasomclinical .site-footer a,
+body.uvasom_parallax .site-footer, 
+body.uvasom_parallax .site-footer a {
+
+	color:#5383a8;
+}
+body.uvasomclinical #uvasomfooterleft,
+body.uvasom_parallax #uvasomfooterleft {
+	text-align:left;
+}
+body.uvasomclinical #uvasomfooterright,
+body.uvasom_parallax #uvasomfooterright {
+	color:#5383a8;
+}
+body.uvasomclinical .site-footer h3 {
+font-family: Georgia;
+font-variant: small-caps;
+}
+body.uvasom_parallax .site-footer h3 {
+font-weight: normal;
+font-size: 1.8rem;
+clear: both;
+float: left;
+width: 100%;
+text-align: left;
+margin-bottom:20px;
+}
+body.uvasomclinical .site-footer h4 {
+	font-family: Georgia;
+font-variant: small-caps;
+}
+body.uvasomclinical .site-footer h4,
+body.uvasom_parallax .site-footer h4 {
+font-weight: normal;
+font-size: 1.5rem;
+clear: both;
+float: left;
+width: 100%;
+text-align: left;
+margin-bottom:20px;
+}
+body.uvasomclinical div.social-footer,
+body.uvasom_parallax div.social-footer {
+
+	width:100%;
+	clear:both;
+	text-align:left;
+	margin-top:16px;
+	margin-top:1rem;
+}
+
+body.uvasomclinical div.social-footer a,
+body.uvasom_parallax div.social-footer a {
+
+	background-image:url(icons-socials.png);
+	width:39px;
+	height:39px;
+	background-repeat:no-repeat;
+	display:inline-block;
+	zoom:1;
+	-webkit-transition: none;
+	-moz-transition:    none;
+	-ms-transition:     none;
+	-o-transition:      none;
+	transition:         none;
+}
+body.uvasomclinical div.social-footer a.rss,
+body.uvasom_parallax div.social-footer a.rss {
+
+	background-position:0 0;
+}
+body.uvasomclinical div.social-footer a.facebook,
+body.uvasom_parallax div.social-footer a.facebook {
+
+	background-position:-41px 0;
+}
+body.uvasomclinical div.social-footer a.youtube,
+body.uvasom_parallax div.social-footer a.youtube {
+
+	background-position:-336px 0;
+}
+body.uvasomclinical div.social-footer a.email,
+body.uvasom_parallax div.social-footer a.email {
+
+	background-position:-126px 0;
+}
+body.uvasomclinical div.social-footer a.rss:hover,
+body.uvasom_parallax div.social-footer a.rss:hover {
+
+	background-position:0 -42px;
+}
+body.uvasomclinical div.social-footer a.facebook:hover,
+body.uvasom_parallax div.social-footer a.facebook:hover {
+
+	background-position:-41px -42px;
+}
+body.uvasomclinical div.social-footer a.youtube:hover,
+body.uvasom_parallax div.social-footer a.youtube:hover {
+
+	background-position:-336px -42px;
+}
+body.uvasomclinical div.social-footer a.email:hover,
+body.uvasom_parallax div.social-footer a.email:hover {
+
+	background-position:-126px -42px;
+}
+
+body.uvasomclinical .visuallyhidden,
+body.uvasom_parallax .visuallyhidden {
+	margin-left:-9999px;
+}
+
+
+
+
